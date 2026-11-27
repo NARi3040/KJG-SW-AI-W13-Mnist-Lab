@@ -1,0 +1,29 @@
+title: "[학습] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        각자 학습한 내용을 올려요. **이해한 내용만** 올리는 것이 규칙이에요.
+  - type: input
+    id: topic
+    attributes:
+      label: 주제
+      placeholder: Softmax + Cross Entropy 역전파 (y - t)
+    validations:
+      required: true
+  - type: textarea
+    id: content
+    attributes:
+      label: 이해한 내용
+      description: 내 말로 설명할 수 있는 내용만 적어요. 수식과 배열 shape을 함께 적으면 좋아요.
+    validations:
+      required: true
+  - type: textarea
+    id: application
+    attributes:
+      label: 과제에 적용할 점
+      placeholder: "Day 2 SoftmaxWithLoss.backward(#3)에서 배치 크기로 나누는 위치를 확인해요."
+  - type: textarea
+    id: references
+    attributes:
+      label: 참고 자료
