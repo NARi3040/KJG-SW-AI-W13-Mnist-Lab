@@ -4,7 +4,7 @@ body:
     attributes:
       value: |
         회의를 클로바노트로 녹음하고, AI가 정리한 내용을 올려요.
-        관련 이슈나 PR은 `#번호`로 적어 두면 AI가 작업할 때 이 회의록을 컨텍스트로 읽어요.
+        AI에게 이 회의록을 참고시키려면 이슈·PR 댓글에서 `@claude`와 함께 이 디스커션 번호를 적어요. (예: `@claude 디스커션 #5 결정 사항대로 리뷰해 줘`)
   - type: input
     id: attendees
     attributes:
