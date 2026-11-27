@@ -1,0 +1,22 @@
+title: "[Daily] YYYY-MM-DD"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        오늘의 스크럼 글이에요. 각자 아래 형식으로 **댓글**에 작성해 주세요.
+
+        ```
+        ## 어제 한 일
+        - Affine.forward 구현, shape 테스트 통과
+
+        ## 오늘 할 일
+        - SoftmaxWithLoss.backward 시작
+
+        ## 막힌 점
+        - dx를 배치 크기로 나누는 이유가 헷갈림
+        ```
+  - type: textarea
+    id: notice
+    attributes:
+      label: 오늘 공지
+      description: 오늘 함께 알아야 할 일정이나 공지가 있으면 적어요. 없으면 비워 둬요.
